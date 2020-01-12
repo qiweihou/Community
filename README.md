@@ -15,3 +15,5 @@
 
 [Visual Paradigm](https://visual-paradigm.com)
 
+## 脚本
+community.sql
