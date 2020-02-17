@@ -1,4 +1,4 @@
-package com.qiweihou.community.Controller;
+package com.qiweihou.community.controller;
 
 import com.qiweihou.community.dto.QuestionDTO;
 import com.qiweihou.community.service.QuestionService;
@@ -23,6 +23,9 @@ public class QuestionController {
                            Model model) {
 
         QuestionDTO questionDTO = questionService.getById(id);
+
+        //增加阅读数
+        questionService.incView(id);
         model.addAttribute("question", questionDTO);
         return "question";
     }

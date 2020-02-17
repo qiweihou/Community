@@ -1,12 +1,9 @@
-package com.qiweihou.community.Controller;
+package com.qiweihou.community.controller;
 
 import com.qiweihou.community.dto.QuestionDTO;
-import com.qiweihou.community.mapper.QuestionMapper;
-import com.qiweihou.community.mapper.UserMapper;
 import com.qiweihou.community.model.Question;
 import com.qiweihou.community.model.User;
 import com.qiweihou.community.service.QuestionService;
-import com.sun.org.apache.bcel.internal.generic.MONITORENTER;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,7 +12,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 
 /**

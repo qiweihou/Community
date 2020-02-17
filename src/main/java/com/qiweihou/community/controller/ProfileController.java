@@ -1,4 +1,4 @@
-package com.qiweihou.community.Controller;
+package com.qiweihou.community.controller;
 
 import com.qiweihou.community.dto.PaginationDTO;
 import com.qiweihou.community.model.User;

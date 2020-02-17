@@ -1,8 +1,7 @@
-package com.qiweihou.community.Controller;
+package com.qiweihou.community.controller;
 
 import com.qiweihou.community.dto.AccessTokenDTO;
 import com.qiweihou.community.dto.GithubUser;
-import com.qiweihou.community.mapper.UserMapper;
 import com.qiweihou.community.model.User;
 import com.qiweihou.community.provider.GithubProvider;
 import com.qiweihou.community.service.UserService;
